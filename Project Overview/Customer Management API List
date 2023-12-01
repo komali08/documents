@@ -1,0 +1,42 @@
+1. Mobile member XPAPI
+    a. POST /members(Member registration) - Mobile-Member-Registration-XPAPI
+    b. GET /members(Get member details) - Mobile-GetMember-Details-XPAPI
+    c. PATCH /members(Update member details) - Mobile-Member-Update-XPAPI
+
+2. Web member XPAPI
+    a. POST /members(Member registration) - WebApp-Member-Registration-XPAPI
+    b. GET /members(Get member details) - WebAPP-GetMember-Details-XPAPI
+    c. PATCH /members(Update member details) - WebApp-Member-Update-XPAPI
+
+3. Authorization XPAPI
+    a. GET /members/login (Member login) - Member-Login-XPAPI
+    b. Get /members/credentials(Forgot UserName and Password) - Member-Forgot-UserNameAndPassword-XPAPI
+    c. Patch /members/credentials(Reset UserName And password) - Member-Reset- UserNameAndPassword-XPAPI
+    d. POST /OTP( Generate OTP code) - Member-Generate-OTP-XPAPI
+    e. Get /OTP( Verify OTP code) - Member-Verify-OTP-XPAPI
+
+4. Member PAPI
+    a. POST /members(Member registration) - Member-Registration-PAPI
+    b. GET /members(Get member details) - GetMember-Details-PAPI
+    c. PATCH /members(Update member details) - Member-Update-PAPI
+
+5. Scheduler PAPI
+    a. scheduler API( To move data from SFDC to DB) – Schedular-SFDC-To-DB-PAPI - Soumya
+
+6. Authorization PAPI
+    a. GET /members/login (Member login) - Member-Login-PAPI -Tejaswi
+    b. Get /members/credentials(Forgot UserName and Password) - Member-Forgot-UserNameAndPassword-PAPI - Tejaswi
+    c. Patch /members/credentials(Reset UserName And password) - Member-Reset- UserNameAndPassword-PAPI - Tejaswi
+    d. POST /OTP( Generate OTP code) - Member-Generate-OTP-PAPI -  Tejaswi
+    e. Get /OTP( Verify OTP code) - Member-Verify-OTP-PAPI - Tejaswi
+
+7. Member SAPI
+    a. POST /members (Member registration SFDC) - Member-Registration-SFDC-SAPI - Jackline
+    b. POST /members/sync(Member registration sync from SFDC to DataBase) - Member-Registration-DB-SAPI - Jacline
+    c. GET /members(Get member details) - GetMember-Details-SAPI - Jackline
+    d. PATCH /members(Update member details) - Member-Update-SAPI - Jackline
+
+8. Authorization SAPI
+    a. GET /members/login (Member login) - Member-Login-SAPI - Tejaswi
+    d. POST /OTP( Generate OTP code) - Member-Generate-OTP-SAPI - Tejaswi
+    e. Get /OTP( Verify OTP code) - Member-Verify-OTP-SAPI  - Tejaswi
